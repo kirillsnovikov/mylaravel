@@ -15,7 +15,7 @@ class IndexController extends Controller
 		
 		$articles = Article::get(['id', 'title', 'desc']);
 		
-		dump($articles);
+		//dump($articles);
 		
 		
 		return view('page')->with([	'message'=>$message,
