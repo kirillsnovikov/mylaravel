@@ -17,7 +17,7 @@ class IndexController extends Controller
 		
 		//dump($articles);
 		//dump($articles);
-		
+		////
 		
 		return view('page')->with([	'message'=>$message,
 									'text'=>$text,
