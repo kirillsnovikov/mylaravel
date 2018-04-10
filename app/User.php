@@ -26,4 +26,16 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+    
+    public function films()
+	{
+		return $this->hasMany(Film::class);
+	}
+	
+	public function comments()
+	{
+		return $this->hasMany(Comment::class);
+	}
+	
+	
 }

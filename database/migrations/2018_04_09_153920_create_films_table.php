@@ -18,11 +18,11 @@ class CreateFilmsTable extends Migration
             $table->string('title');
             $table->string('link');
             $table->text('content');
-            $table->integer('category_id');
-            $table->integer('user_id');
-            $table->integer('status');
-            $table->integer('views');
-            $table->integer('is_featured');
+            $table->integer('category_id')->nullable();
+            $table->integer('user_id')->nullable();
+            $table->integer('status')->default(0);
+            $table->integer('views')->default(0);
+            $table->integer('is_featured')->default(0);
             $table->timestamps();
         });
     }

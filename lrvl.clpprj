@@ -2,6 +2,21 @@
 <project name="C:\OSPanel\domains\laravel.pro\lrvl.clpprj">
 	<settings><PM_URL><![CDATA[http://localhost/laravel.pro/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/laravel.pro/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
 		<file name="C:\OSPanel\domains\laravel.pro\routes\web.php"/>
+		<file name="C:\OSPanel\domains\laravel.pro\app\Http\Controllers\IndexController.php"/>
+		<file name="C:\OSPanel\domains\laravel.pro\resources\views\page.blade.php"/>
+		<file name="C:\OSPanel\domains\laravel.pro\app\Article.php"/>
+		<file name="C:\OSPanel\domains\laravel.pro\app\Providers\RouteServiceProvider.php"/>
+		<file name="C:\OSPanel\domains\laravel.pro\config\database.php"/>
+		<file name="C:\OSPanel\domains\laravel.pro\resources\views\layouts\site.blade.php"/>
+		<file name="C:\OSPanel\domains\laravel.pro\resources\views\layouts\main.blade.php"/>
+		<file name="C:\OSPanel\domains\laravel.pro\database\migrations\2018_04_09_153920_create_films_table.php"/>
+		<file name="C:\OSPanel\domains\laravel.pro\database\migrations\2018_04_09_154718_create_categories_table.php"/>
+		<file name="C:\OSPanel\domains\laravel.pro\database\migrations\2018_04_09_155246_create_comments_table.php"/>
+		<file name="C:\OSPanel\domains\laravel.pro\database\migrations\2014_10_12_000000_create_users_table.php"/>
+		<file name="C:\OSPanel\domains\laravel.pro\.gitignore"/>
+		<file name="C:\OSPanel\domains\laravel.pro\.env"/>
+		<file name="C:\OSPanel\domains\laravel.pro\database\migrations\2018_04_10_095036_create_films_tags_table.php"/>
+		<file name="C:\OSPanel\domains\laravel.pro\database\migrations\2018_04_09_155407_create_subscribers_table.php"/>
 	</lastopfiles>
 	<errors version="5.11">
 		<errfile name="C:\OSPanel\domains\laravel.pro\vendor\webmozart\assert\src\Assert.php">
@@ -453,8 +468,6 @@
 			<todo name="TODO: this fails when comments or contexts are added" pos="17;89"/>
 		</todofile>
 	</todoblock>
-	<dbgurls>
-	</dbgurls>
 	<filescache>
 		<file name="C:\OSPanel\domains\laravel.pro\vendor\webmozart\assert\src\Assert.php" crc="1522666705"/>
 		<file name="C:\OSPanel\domains\laravel.pro\vendor\webmozart\assert\.styleci.yml" crc="1522666705"/>
@@ -5726,24 +5739,30 @@
 		<file name="C:\OSPanel\domains\laravel.pro\vendor\doctrine\inflector\lib\Doctrine\Common\Inflector\Inflector.php" crc="1522666585"/>
 		<file name="C:\OSPanel\domains\laravel.pro\vendor\dnoegel\php-xdg-base-dir\tests\XdgTest.php" crc="1522666614"/>
 		<file name="C:\OSPanel\domains\laravel.pro\vendor\dnoegel\php-xdg-base-dir\src\Xdg.php" crc="1522666614"/>
-		<file name="C:\OSPanel\domains\laravel.pro\vendor\composer\ClassLoader.php" crc="1522666733"/>
-		<file name="C:\OSPanel\domains\laravel.pro\vendor\composer\autoload_static.php" crc="1522666733"/>
-		<file name="C:\OSPanel\domains\laravel.pro\vendor\composer\autoload_real.php" crc="1522666733"/>
-		<file name="C:\OSPanel\domains\laravel.pro\vendor\composer\autoload_psr4.php" crc="1522666732"/>
-		<file name="C:\OSPanel\domains\laravel.pro\vendor\composer\autoload_namespaces.php" crc="1522666732"/>
-		<file name="C:\OSPanel\domains\laravel.pro\vendor\composer\autoload_files.php" crc="1522666733"/>
-		<file name="C:\OSPanel\domains\laravel.pro\vendor\composer\autoload_classmap.php" crc="1522666733"/>
-		<file name="C:\OSPanel\domains\laravel.pro\vendor\autoload.php" crc="1522666733"/>
+		<file name="C:\OSPanel\domains\laravel.pro\vendor\composer\ClassLoader.php" crc="1523353876"/>
+		<file name="C:\OSPanel\domains\laravel.pro\vendor\composer\autoload_static.php" crc="1523353876"/>
+		<file name="C:\OSPanel\domains\laravel.pro\vendor\composer\autoload_real.php" crc="1523353876"/>
+		<file name="C:\OSPanel\domains\laravel.pro\vendor\composer\autoload_psr4.php" crc="1523353876"/>
+		<file name="C:\OSPanel\domains\laravel.pro\vendor\composer\autoload_namespaces.php" crc="1523353876"/>
+		<file name="C:\OSPanel\domains\laravel.pro\vendor\composer\autoload_files.php" crc="1523353876"/>
+		<file name="C:\OSPanel\domains\laravel.pro\vendor\composer\autoload_classmap.php" crc="1523353876"/>
+		<file name="C:\OSPanel\domains\laravel.pro\vendor\autoload.php" crc="1523353876"/>
 		<file name="C:\OSPanel\domains\laravel.pro\tests\Unit\ExampleTest.php" crc="1522666465"/>
 		<file name="C:\OSPanel\domains\laravel.pro\tests\Feature\ExampleTest.php" crc="1522666465"/>
 		<file name="C:\OSPanel\domains\laravel.pro\tests\TestCase.php" crc="1522666465"/>
 		<file name="C:\OSPanel\domains\laravel.pro\tests\CreatesApplication.php" crc="1522666465"/>
 		<file name="C:\OSPanel\domains\laravel.pro\storage\framework\views\e9edbf62135be06f3dab96e5e78288389a748000.php" crc="1522666934"/>
-		<file name="C:\OSPanel\domains\laravel.pro\routes\web.php" crc="1522673864"/>
+		<file name="C:\OSPanel\domains\laravel.pro\storage\framework\views\cc2f72c637c68271e72166007c33c33c5d619637.php" crc="1523273599"/>
+		<file name="C:\OSPanel\domains\laravel.pro\storage\framework\views\6c6cfc5ebf27272f4eefc3fc835439b75b904abf.php" crc="1523273599"/>
+		<file name="C:\OSPanel\domains\laravel.pro\storage\framework\views\591eeb42920bc2626aa9152650d3d8c2a12c2c2b.php" crc="1523274493"/>
+		<file name="C:\OSPanel\domains\laravel.pro\routes\web.php" crc="1522683971"/>
 		<file name="C:\OSPanel\domains\laravel.pro\routes\console.php" crc="1522666465"/>
 		<file name="C:\OSPanel\domains\laravel.pro\routes\channels.php" crc="1522666465"/>
 		<file name="C:\OSPanel\domains\laravel.pro\routes\api.php" crc="1522666465"/>
+		<file name="C:\OSPanel\domains\laravel.pro\resources\views\layouts\site.blade.php" crc="1523273597"/>
+		<file name="C:\OSPanel\domains\laravel.pro\resources\views\layouts\main.blade.php" crc="1523274490"/>
 		<file name="C:\OSPanel\domains\laravel.pro\resources\views\welcome.blade.php" crc="1522666465"/>
+		<file name="C:\OSPanel\domains\laravel.pro\resources\views\page.blade.php" crc="1523273597"/>
 		<file name="C:\OSPanel\domains\laravel.pro\resources\lang\en\validation.php" crc="1522666465"/>
 		<file name="C:\OSPanel\domains\laravel.pro\resources\lang\en\passwords.php" crc="1522666465"/>
 		<file name="C:\OSPanel\domains\laravel.pro\resources\lang\en\pagination.php" crc="1522666465"/>
@@ -5758,8 +5777,14 @@
 		<file name="C:\OSPanel\domains\laravel.pro\public\index.php" crc="1522666465"/>
 		<file name="C:\OSPanel\domains\laravel.pro\public\.htaccess" crc="1522666464"/>
 		<file name="C:\OSPanel\domains\laravel.pro\database\seeds\DatabaseSeeder.php" crc="1522666464"/>
+		<file name="C:\OSPanel\domains\laravel.pro\database\migrations\2018_04_10_095036_create_films_tags_table.php" crc="1523354450"/>
+		<file name="C:\OSPanel\domains\laravel.pro\database\migrations\2018_04_09_155407_create_subscribers_table.php" crc="1523289247"/>
+		<file name="C:\OSPanel\domains\laravel.pro\database\migrations\2018_04_09_155246_create_comments_table.php" crc="1523289401"/>
+		<file name="C:\OSPanel\domains\laravel.pro\database\migrations\2018_04_09_155224_create_tags_table.php" crc="1523289144"/>
+		<file name="C:\OSPanel\domains\laravel.pro\database\migrations\2018_04_09_154718_create_categories_table.php" crc="1523289320"/>
+		<file name="C:\OSPanel\domains\laravel.pro\database\migrations\2018_04_09_153920_create_films_table.php" crc="1523353583"/>
 		<file name="C:\OSPanel\domains\laravel.pro\database\migrations\2014_10_12_100000_create_password_resets_table.php" crc="1522666464"/>
-		<file name="C:\OSPanel\domains\laravel.pro\database\migrations\2014_10_12_000000_create_users_table.php" crc="1522666464"/>
+		<file name="C:\OSPanel\domains\laravel.pro\database\migrations\2014_10_12_000000_create_users_table.php" crc="1523289546"/>
 		<file name="C:\OSPanel\domains\laravel.pro\database\factories\UserFactory.php" crc="1522666464"/>
 		<file name="C:\OSPanel\domains\laravel.pro\config\view.php" crc="1522666464"/>
 		<file name="C:\OSPanel\domains\laravel.pro\config\session.php" crc="1522666464"/>
@@ -5774,10 +5799,10 @@
 		<file name="C:\OSPanel\domains\laravel.pro\config\broadcasting.php" crc="1522666464"/>
 		<file name="C:\OSPanel\domains\laravel.pro\config\auth.php" crc="1522666464"/>
 		<file name="C:\OSPanel\domains\laravel.pro\config\app.php" crc="1522666464"/>
-		<file name="C:\OSPanel\domains\laravel.pro\bootstrap\cache\services.php" crc="1522666733"/>
-		<file name="C:\OSPanel\domains\laravel.pro\bootstrap\cache\packages.php" crc="1522666733"/>
+		<file name="C:\OSPanel\domains\laravel.pro\bootstrap\cache\services.php" crc="1523353877"/>
+		<file name="C:\OSPanel\domains\laravel.pro\bootstrap\cache\packages.php" crc="1523353877"/>
 		<file name="C:\OSPanel\domains\laravel.pro\bootstrap\app.php" crc="1522666464"/>
-		<file name="C:\OSPanel\domains\laravel.pro\app\Providers\RouteServiceProvider.php" crc="1522666464"/>
+		<file name="C:\OSPanel\domains\laravel.pro\app\Providers\RouteServiceProvider.php" crc="1522752646"/>
 		<file name="C:\OSPanel\domains\laravel.pro\app\Providers\EventServiceProvider.php" crc="1522666464"/>
 		<file name="C:\OSPanel\domains\laravel.pro\app\Providers\BroadcastServiceProvider.php" crc="1522666464"/>
 		<file name="C:\OSPanel\domains\laravel.pro\app\Providers\AuthServiceProvider.php" crc="1522666464"/>
@@ -5791,13 +5816,21 @@
 		<file name="C:\OSPanel\domains\laravel.pro\app\Http\Controllers\Auth\RegisterController.php" crc="1522666464"/>
 		<file name="C:\OSPanel\domains\laravel.pro\app\Http\Controllers\Auth\LoginController.php" crc="1522666464"/>
 		<file name="C:\OSPanel\domains\laravel.pro\app\Http\Controllers\Auth\ForgotPasswordController.php" crc="1522666464"/>
+		<file name="C:\OSPanel\domains\laravel.pro\app\Http\Controllers\IndexController.php" crc="1523005992"/>
 		<file name="C:\OSPanel\domains\laravel.pro\app\Http\Controllers\Controller.php" crc="1522666464"/>
 		<file name="C:\OSPanel\domains\laravel.pro\app\Http\Kernel.php" crc="1522666464"/>
 		<file name="C:\OSPanel\domains\laravel.pro\app\Exceptions\Handler.php" crc="1522666464"/>
 		<file name="C:\OSPanel\domains\laravel.pro\app\Console\Kernel.php" crc="1522666464"/>
 		<file name="C:\OSPanel\domains\laravel.pro\app\User.php" crc="1522666464"/>
+		<file name="C:\OSPanel\domains\laravel.pro\app\Tag.php" crc="1523289144"/>
+		<file name="C:\OSPanel\domains\laravel.pro\app\Subscriber.php" crc="1523289247"/>
+		<file name="C:\OSPanel\domains\laravel.pro\app\Film.php" crc="1523288360"/>
+		<file name="C:\OSPanel\domains\laravel.pro\app\Comment.php" crc="1523289166"/>
+		<file name="C:\OSPanel\domains\laravel.pro\app\Category.php" crc="1523288838"/>
+		<file name="C:\OSPanel\domains\laravel.pro\app\Article.php" crc="1522682714"/>
 		<file name="C:\OSPanel\domains\laravel.pro\webpack.mix.js" crc="1522666465"/>
 		<file name="C:\OSPanel\domains\laravel.pro\server.php" crc="1522666465"/>
 		<file name="C:\OSPanel\domains\laravel.pro\phpunit.xml" crc="1522666464"/>
+		<file name="C:\OSPanel\domains\laravel.pro\minilaravel.sql" crc="1472661181"/>
 	</filescache>
 </project>
