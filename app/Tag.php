@@ -8,7 +8,7 @@ use Cviebrock\EloquentSluggable\Sluggable;
 class Tag extends Model
 {
 	use Sluggable;
-	
+	//
     public function films()
 	{
 		return $this->belongsToMany(
