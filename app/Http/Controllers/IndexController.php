@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\Article;
+use App\Film;
 
 class IndexController extends Controller
 {
@@ -13,7 +13,7 @@ class IndexController extends Controller
 		$message = 'codelobster';
 		$text    = 'conveying meaning to assistive technologies';
 		
-		$articles = Article::get(['id', 'title', 'desc']);
+		$articles = Film::get(['id', 'title']);
 		
 		//dump($articles);
 		//dump($articles);

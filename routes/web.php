@@ -17,6 +17,6 @@ Route::get('/', function () {
 
 Route::get('page', 'IndexController@index');
 
-Route::get('category', 'IndexController@category');
+Route::resource('film', 'MainFilmController');
 
 
