@@ -8,7 +8,7 @@ use Cviebrock\EloquentSluggable\Sluggable;
 class Film extends Model
 {
 	use Sluggable;
-	
+
 	public function category()
 	{
 		return $this->hasOne(Category::class);

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Film;
 
 class MainFilmController extends Controller
 {
@@ -24,7 +25,8 @@ class MainFilmController extends Controller
 	public function create()
 	{
 		$title = 'Add Film';
-		return view('admin.create')->with('title', $title);
+		return view('admin.store')->with('title', $title);
+
 	}
 
 	/**
@@ -35,7 +37,14 @@ class MainFilmController extends Controller
 	*/
 	public function store(Request $request)
 	{
-		//
+		$film = new Film();
+
+		$film->title = $request->title;
+		$film->link = $request->link;
+		$film->content = $request->content;
+		$film->save();
+
+		return $film;
 	}
 
 	/**
